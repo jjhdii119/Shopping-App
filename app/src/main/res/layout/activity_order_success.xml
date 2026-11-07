@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_kotak_merah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan Disiapkan!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#8B0000"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohon tunggu sebentar,\nmakanan dan minumanmu akan\nsegera diantar oleh kurir kami."
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="#5D4037"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Tutup &amp; Kembali"
+            android:backgroundTint="#8B0000"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

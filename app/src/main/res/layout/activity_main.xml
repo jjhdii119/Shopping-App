@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu_antik">
+
+    <!-- Tombol Mulai Pesan -->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Mulai Pesan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4E342E"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnStart"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="200dp">
+
+        <!-- Susunan rapat seperti yang kamu mau -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#3E2723"
+            android:layout_marginBottom="0dp"/>
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:src="@drawable/kucing_koki"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kopi dan Nyemil"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#3E2723"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siap menemani waktu santaimu hari ini!"
+            android:textSize="16sp"
+            android:textColor="#3E2723"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</RelativeLayout>
