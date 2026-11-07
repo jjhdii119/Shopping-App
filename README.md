@@ -30,4 +30,4 @@ Aplikasi ini menggunakan navigasi yang mulus dan *dummy data* (tanpa database) d
 ## Cara Menjalankan Aplikasi
 1. *Clone* repository ini ke komputer lokal Anda:
    ```bash
-   git clone [https://github.com/jjhdii119/Shopping-App.git](https://github.com/jjhdii119/Shopping-App.git)
+   git clone (https://github.com/jjhdii119/Shopping-App.git)
